@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg3"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_marginTop="170dp"
+        android:gravity="center"
+        android:textColor="@color/purple_700"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/kalkulator"
+        android:textSize="25dp"
+        android:layout_marginBottom="15dp"
+        android:textStyle="bold"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/bilangan_pertama"
+        android:textSize="10pt"
+        android:textStyle="bold"
+        android:background="#F1F9FF"/>
+    <EditText
+        android:id="@+id/edit_bilangan_pertama"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="numberDecimal"
+        android:layout_marginBottom="5dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/Bilangan_kedua"
+        android:textSize="10pt"
+        android:textStyle="bold"
+        android:background="#F1F9FF"/>
+    <EditText
+        android:id="@+id/edit_bilangan_kedua"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="numberDecimal"
+        android:layout_marginBottom="5dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"/>
+
+        <Button
+            android:id="@+id/button_tambah"
+            android:layout_marginRight="5dp"
+            android:layout_marginLeft="15dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/tambah"/>
+
+    <Button
+        android:id="@+id/button_kurang"
+        android:layout_marginRight="5dp"
+        android:layout_marginLeft="115dp"
+        android:layout_marginTop="-48dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/Kurang"/>
+
+    <Button
+        android:id="@+id/button_kali"
+        android:layout_marginRight="5dp"
+        android:layout_marginLeft="215dp"
+        android:layout_marginTop="-48dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/Kali"/>
+
+    <Button
+        android:id="@+id/button_bagi"
+        android:layout_marginRight="5dp"
+        android:layout_marginLeft="315dp"
+        android:layout_marginTop="-48dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/Bagi"/>
+    <TextView
+        android:id="@+id/hasil_kalkulator"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Hasil"
+        android:gravity="center"
+        android:textSize="10pt"
+        android:textColor="@color/purple_700"
+        android:textStyle="bold"/>
+</LinearLayout>
+
+

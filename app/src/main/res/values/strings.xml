@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Kalkulator</string>
+    <string name="kalkulator">Kalkulator</string>
+    <string name="bilangan_pertama">Bilangan Pertama</string>
+    <string name="tambah">+</string>
+    <string name="Bilangan_kedua">Bilangan Kedua</string>
+    <string name="Kurang">-</string>
+    <string name="Kali">X</string>
+    <string name="Bagi">:</string>
+</resources>
